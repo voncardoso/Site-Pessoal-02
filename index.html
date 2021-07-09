@@ -4,185 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>FlexBlog</title>
-
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <Script>
+        document.documentElement.classList.add("js");
+    </Script>
+    <title>Portifolio - Von Harrison</title>
 </head>
 <body>
-    <div class="superinfo-bg">
-        <div class="superinfo">
-            <p>Seg / Sex - 08:00 ás 18:00</p>
-            <a href="tel:+5591982750306"> +55 91 98275-0306</a>
-            <p>Av. Ali Perto, 300, Botafogo - RJ</p>
-        </div>
-    </div>
-
     <header class="menu-bg">
         <div class="menu">
-            <div class="menu-logo">
-                <a href="#">FlexBlog</a>
+            <div>
+                <a href="#">Von Harrison Tadaiesky</a>
             </div>
 
             <nav class="menu-nav">
                 <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#preco">Contato</a></li>
-                    <li><a href="#qualidade">Qualidade</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Skill">Skill</a></li>
+                    <li><a href="#Contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <h1 class="introducao">Novos valores e <br> Propiedades do Css</h1>
-
-    <section class="sobre" id="sobre">
-        <div class="sobre-info">
-            <h1>Sobre</h1>
-            <p>
-                O que temos que ter sempre em mente é 
-                a determinação clara de obketivos afeta positivamente a
-                a correta previsão das condições inegavelmente 
-                apropiadas a anjetivos 
-            </p>
-
-            <p>
-                O que temos que ter sempre em mente é 
-                a determinação clara de obketivos afeta positivamente a
-                a correta previsão das condições inegavelmente 
-                apropiadas a anjetivos 
-            </p>
+    <section class="introducao">
+    
+        <div class="introducao_info">
+            <h1>Von Harrison Tadaiesky</h1>
+            <p>Desenvolvedor Front-and</p>
         </div>
-
-        <div class="sobre-img">
-            <img src="img/sobre1.jpg" alt="Sobre 1">
-        </div>
-        <div class="sobre-img">
-            <img src="img/sobre2.jpg" alt="Sobre 2">
+        <div class="introducao_img">
+            <img src="img/fotos/Working.png" alt="">
         </div>
     </section>
 
-    <section class="produtos" id="#produtos">
-        <h1>Produtos</h1>
-        <div class="produtos-container">
-            <div class="produto-item purple">
-                <h2>Purple</h2>
-                <img src="img/produtos1.jpg" alt="Produtos 1">
-            </div>
-            <div class="produto-item  pink">
-                <h2>Pink</h2>
-                <img src="img/produtos2.jpg" alt="Produtos 2">
-            </div>
-            <div class="produto-item  blue">
-                <h2>Blue</h2>
-                <img src="img/produtos3.jpg" alt="Produtos 3">
-            </div>
-        </div>
-    </section>
+    <section class="sobre">
+        <h2>Sobre</h2>
 
-    <section class="preco" id="preco">
-        <div class="preco-item">
-            <h2>Cobre</h2>
-            <span><sup>R$</sup>19</span>
-            <ul>
-                <li>Planos Ilimitados</li>
-                <li>Acesso Restrito</li>
-                <li>Conteúdo Decreto</li>
-                <li>Suporte 24h</li>
-            </ul>
-            <a href="#">Comprar</a>
-        </div>
-
-        <div class="preco-item">
-            <h2>Prata</h2>
-            <span><sup>R$</sup>39</span>
-            <ul>
-                <li>Planos Ilimitados</li>
-                <li>Acesso Restrito</li>
-                <li>Conteúdo Decreto</li>
-                <li>Suporte 24h</li>
-                <li>Compra exclusiva</li>
+        <div class="sobre_flex">
+            
+                <img src="img/fotos/IMG_20180427_174709537 1.png" alt="">
                 
-            </ul>
-            <a href="#">Comprar</a>
-        </div>
-
-        <div class="preco-item">
-            <h2>Ouro</h2>
-            <span><sup>R$</sup>79</span>
-            <ul>
-                <li>Planos Ilimitados</li>
-                <li>Acesso Restrito</li>
-                <li>Conteúdo Decreto</li>
-                <li>Suporte 24h</li>
-                <li>Compra Exclusiva</li>
-                <li>Dowload dos Itens</li>
-            </ul>
-            <a href="#">Comprar</a>
+                <p> is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since 
+                    the 1500s, when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book. It has survived not only five 
+                    centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged.
+                    is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since 
+                    the 1500s, when an unknown printer took a galley of type and scrambled
+                    it to make a type specimen book. It has survived not only five 
+                    centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged.
+                </p>
         </div>
     </section>
 
-    <section class="qualidade" id="qualidade">
-        <div class="qualidade-item">
-            <h2>Inteligente</h2>
-            <p>O que temos sempre em mente é que a 
-                determinação clara de objetivos aftea positivamente a 
-                correta previsão
-            </p>
-        </div>
-        <div class="qualidade-item">
-            <h2>Compacto</h2>
-            <p>O que temos sempre em mente é que a 
-                determinação clara de objetivos aftea positivamente a 
-                correta previsão
-            </p>
-        </div>
-        <div class="qualidade-item">
-            <h2>Econômico</h2>
-            <p>O que temos sempre em mente é que a 
-                determinação clara de objetivos aftea positivamente a 
-                correta previsão
-            </p>
-        </div>
-        <div class="qualidade-item">
-            <h2>Transparente</h2>
-            <p>O que temos sempre em mente é que a 
-                determinação clara de objetivos aftea positivamente a 
-                correta previsão
-            </p>
-        </div>
-        <div class="qualidade-item">
-            <h2>Opaco</h2>
-            <p>O que temos sempre em mente é que a 
-                determinação clara de objetivos aftea positivamente a 
-                correta previsão
-            </p>
-        </div>
-        <div class="qualidade-item">
-            <h2>Sustentável</h2>
-            <p>O que temos sempre em mente é que a 
-                determinação clara de objetivos aftea positivamente a 
-                correta previsão
-            </p>
-        </div>
+    <section class="Skkills">
+        <h2>Skills</h2>
+
+        <ul class="skills_img">
+            <li>
+                <p>CSS</p>
+                <img src="img/icones/ICONE CSS.png" alt="">
+            </li>
+            <li>
+                <p>HATML</p>
+                <img src="img/icones/ICONE HTML.png" alt="">
+            </li>
+            <li>
+                <p>JAVASCRIPT</p>
+                <img src="img/icones/ICONE JAVASCRIPT.png" alt="">
+            </li>
+            <li>
+                <p>REACT</p>
+                <img src="img/icones/ICONE REACT.png" alt="">
+            </li>
+        </ul>
     </section>
 
-    <section class="newsletter">
-        <div class="newsletter-info">
-            <h1>Newsletter</h1>
-            <p> assine e fique por dentro das novidades</p>
-        </div>
-        <form class="newsletter-form">
-            <input type="text" placeholder="Seu e-mail">
-            <button type="submit"> Assinar </button>
-        </form>
-    </section>
-
-    <footer class="footer">
-        <p>FlexBlog Todos os direitos reservados</p>
-    </footer>
 </body>
 </html>
